@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #D6FFF6;
+    color: #2fa093;
+    border: 2px solid #231651;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.titulo-destaque{
+    color: #231651;
+}
+
+.p-destaque{
+    color: #231651;
+}
+
+.container{
+    margin: 10% 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.container__conteudo__texto{
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__links__link{
+    background-color: #2fa093;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    color: #231651;
+    font-weight: 999;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
